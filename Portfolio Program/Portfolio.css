@@ -1,0 +1,31 @@
+body {background-color:#1C398E;color:0A0A0A;font-family: EB Garamond;padding-left:15px;padding-right:15px;}
+h1 {background-color:#FFDF20;color:#0A0A0A;height:50px;font-family:Poppins;font-size:270%;}
+h3{color:#0A0A0A;font-family:Verdana;line-height:.4;}
+footer {background-color:#FFDF20; font-family:Times New Roman;height:20px;width:320px;text-align:center;} 
+nav a {color:#FFDF20;font-size:130%;}
+nav a:hover{color:#0A0A0A}
+a{color:#0A0A0A;}
+a:hover {color:#1C398E}
+main{
+    padding: 15px;
+    max-width: 1000px;
+    margin: 20px auto; 
+    background-color: #FFDF20;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+	font-size:130%;
+	line-height:1.2;}
+
+table {border:groove;color:#0A0A0A;background-color:#FFDF20;width:50%;}
+td {border:groove;padding:1%;font-size:115%;}
+th{border:groove;font-size:160%;}
+.table-container {
+    display: flex;
+    gap: 30px; padding-left:30px;padding-right:30px;  
+}
+.contact:hover{color:#0A0A0A}
+.contact{color:#FFDF20}
+
+
+
+
