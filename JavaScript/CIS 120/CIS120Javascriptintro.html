@@ -1,0 +1,46 @@
+<script>
+//Problem #1
+pay=prompt("Enter your pay per hour:", 0);
+income=prompt("Enter your desired weekly income:", 0);
+hours= income/pay;
+document.write("Hours needed to meet desired income: ",hours);
+
+//Problem #2
+m=prompt("Enter hours worked on Monday:", 0);
+t=prompt("Enter hours worked on Tuesday:", 0);
+w=prompt("Enter hours worked on Wednesday:", 0);
+th=prompt("Enter hours worked on Thursday:", 0);
+f=prompt("Enter hours worked on Friday:", 0);
+total=parseFloat(m)+parseFloat(t)+parseFloat(w)+parseFloat(th)+parseFloat(f);
+average=parseFloat(total)/5;
+document.write("<br>Total hours worked: ",total);
+document.write("<br>Average hours worked: ",average);
+
+//Problem #3
+b1=prompt("The price of book one: ",0);
+b2=prompt("The price of book two: ",0);
+b3=prompt("The price of book three: ",0);
+total=parseFloat(b1)+parseFloat(b2)+parseFloat(b3);
+average=parseFloat(total)/3;
+if (average >100)
+	{
+	 document.write("<br>$",average, " is too expensive.");
+	}
+else
+	{
+	 document.write("<br>$",average, " is okay.");
+	}
+
+//Problem #4
+food=prompt("Food bill:",0);
+drink=prompt("Drink bill:", 0);
+total=parseFloat(food)+parseFloat(drink);
+tax=parseFloat(total)*.062;
+tip=parseFloat(total)*.15;
+taxtotal=parseFloat(tax)+parseFloat(total);
+tiptotal=parseFloat(taxtotal)+(tip);
+document.write("<br>Total for food and drink: $",total);
+document.write("<br>Total with taxes: $",taxtotal);
+document.write("<br>Total with taxes and tip: $",tiptotal);
+
+</script>

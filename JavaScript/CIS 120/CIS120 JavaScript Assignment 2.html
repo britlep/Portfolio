@@ -1,0 +1,18 @@
+<script>
+hoursworked=prompt("Enter the number of hours worked:"); 
+contracthours=prompt("Enter the number of contracted hours:"); 
+payperhour=prompt("Enter pay per hour:"); 
+overtimerate=prompt("Enter overtime rate (e.g., 1.5 for time and a half, 2 for double time):"); 
+
+let regularhours; 
+let overtimehours;
+
+if (hoursworked <= contracthours) { regularhours = hoursworked; overtimehours = 0; } 
+else { regularhours = contracthours; overtimehours = hoursworked - contracthours; }
+
+totalpay =(regularhours * payperhour) +(overtimehours * payperhour * overtimerate); 
+document.write("Regular Hours: " + regularhours); 
+document.write("<br>Overtime Hours: " + overtimehours); 
+document.write("<br>Total Pay: $" + totalpay);
+
+</script>

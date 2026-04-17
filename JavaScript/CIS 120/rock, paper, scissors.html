@@ -1,0 +1,42 @@
+<script>
+var randomnum=Math.floor(Math.random()*3)+1;
+var num=parseInt(window.prompt("Enter your choice: (Rock=1/Paper=2/Scissors=3)"));
+document.write("The computer chose: ", randomnum);
+document.write("<br>The human chose: ",num);
+if (randomnum==num)
+	{
+	document.write("<br>Tie!");
+	}
+	else if (randomnum==1 && num==2)
+		{
+		document.write("<br>The human wins!");
+		}
+		else if (randomnum==1 && num==3)
+			{
+			document.write("<br>The computer wins!");
+			}
+			else if (randomnum==2 && num==1)
+				{
+				document.write("<br>The computer wins!");
+				}
+				else if (randomnum==2 && num==3)
+					{
+					document.write("<br>The human wins!");
+					}
+					else if (randomnum==3 && num==1)
+						{
+						document.write("<br>The human wins!");
+						}
+						else if (randomnum==3 && num==2)
+							{
+							document.write("<br>The computer wins!");
+							}
+if (num>3||num<=0||isNaN(num))
+	{
+	document.write("<br>The human is cheating!")
+	}
+
+
+
+
+</script>

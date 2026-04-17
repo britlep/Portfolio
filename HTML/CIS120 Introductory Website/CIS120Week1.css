@@ -1,0 +1,11 @@
+body {background-color:#008B8B; font-family: EB Garamond;padding-left:50px;padding-right:50px;}
+h1 {background-color:#FF7F50;color:#8B008B;height:50px;font-family:Poppins;}
+h2 {color:#7CFC00;height:50px;font-family:Poppins;}
+ul{list-style-type:circle; list-style-position:inside;color:#8B008B;font-family:Tahoma}
+footer {background-color:#00FA9A; color:#C71585; font-family:Times New Roman;height:20px;width:225px;} 
+p {color:#00008B;}
+h3 {color:#FFA500;font-family:Verdana;}
+div {justify-items:normal} 
+table {border:ridge;color:#00FA9A;margin:auto;}
+td {border:groove;}
+th{border:groove;font-size:160%;}

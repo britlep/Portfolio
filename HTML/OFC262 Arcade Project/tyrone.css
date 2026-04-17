@@ -1,0 +1,21 @@
+body{background-color:#D3D3D3;color:#191970;font-family:Arial,Verdana;} 
+
+  
+
+h1{text-align:center;font-family:Verdana,Tahoma;background-color:#B22222;padding-left:40px;padding-right:40px;} 
+
+  
+
+ nav{color:#B22222;} 
+
+  div{color:#800000;}
+
+h2{font-family:verdana,tahoma;color:#800000;} 
+
+  .companyname{font-style:italic;color:#800000}
+ul {list-style-type:square;color:#800000;}
+
+.price{font-weight: bold;font-family:tahoma;}
+ mark{background-color:yellow;}
+
+footer{font-family:times new roman;font-size:.75em;color:#800000;} 

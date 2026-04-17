@@ -1,0 +1,37 @@
+<script>
+total = 0; 
+
+count = 0; 
+
+another = "Y"; 
+
+      while (another.toUpperCase() === "Y") { 
+
+        grade = parseFloat(prompt("Enter a grade:")); 
+
+        total = total + grade;  
+
+        count = count + 1;      
+
+        another = prompt("Do you want to enter another grade? (Y/N)"); 
+
+      } 
+
+  
+
+      if (count > 0) { 
+
+        average = total / count; 
+
+        document.write("Total of all grades: " + total); 
+
+        document.write("<br>Number of grades: " + count); 
+
+        document.write("<br>Average grade: " + average); 
+
+      } else { 
+
+        document.write("No grades were entered."); 
+
+      } 
+</script>
