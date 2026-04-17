@@ -1,0 +1,10 @@
+Australia,2025,10,Scuba diving the Great Barrier Reef!
+Belize,2014,10,Snorkeling the Belize Barrier Reef!
+Canada,2013,7,Watching Beluga whales!
+Guatemala,2014,7,Cruising the Rio Dulce gorge!
+Honduras,2014,8,Petting dolphins!
+Malaysia,2025,8,Exploring the Batu Caves!
+Singapore,2025,9,Visiting Gardens By The Bay!
+Switzerland,2025,6,Walking through Old Town!
+The Bahamas,2014,10,Experiencing pure peace on the water!
+United Arab Emirates,2025,7,Touring The Grand Mosque!

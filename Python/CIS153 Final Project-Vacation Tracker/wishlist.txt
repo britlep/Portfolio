@@ -1,0 +1,8 @@
+Africa,5
+California,5
+Egypt,9
+Greece,10
+Hawaii,3
+Italy,7
+Japan,5
+Texas,6

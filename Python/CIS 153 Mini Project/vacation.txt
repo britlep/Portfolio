@@ -1,0 +1,15 @@
+Hawaii,88
+France,82
+Japan,94
+England,86
+Mexico,70
+Italy,83
+UAE,91
+Australia,92
+USA,78
+Indonesia,73
+Spain,85
+Canada,95
+Greece,80
+Africa,65
+Thailand,75
